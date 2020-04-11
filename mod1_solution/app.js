@@ -8,6 +8,7 @@ function LunchCheckController($scope){
    "color" : "green",
  }
   const str = $scope.items;
+  console.console.log(str);
   const words = str.split(',');
   $scope.CheckIfTooMuch = function(words){
     //console.log(words.length);
